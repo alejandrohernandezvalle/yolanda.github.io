@@ -5,8 +5,7 @@ body {
   
   .main {
     width: 900px;
-    height: 900px;
-    background: url('https://drive.google.com/uc?id=10MRNaBcIcZkBDtio8Vaatu-zhI2g5Yps');
+    height: 900px;    
     background-size: cover;
     margin: 0 auto;
     position: relative;
@@ -14,12 +13,12 @@ body {
   
   .balloon {
     z-index: 2;
-    width: 575px;
-    height: 650px;  
+    width: 30vh;
+    height: 30vh;  
     position: absolute;
     left: 20%;
-    top: 15%;
-    background: url('https://drive.google.com/uc?id=1xMobxtV-hdPSias_hwWHuFlMcy7zei6a') no-repeat;
+    top: 50%;    
+    background: url('https://drive.google.com/uc?id=1ERN5a0SKtET24xj98ubnamvA_-Nz1mhw') no-repeat;  
     background-size: cover;
     animation-name: floating;
     animation-duration: 4s;
@@ -27,43 +26,28 @@ body {
     animation-timing-function: ease-in-out;
   }
   
-  .cloud-right {
-    z-index: 1;
-    width: 354px;
-    height: 500px;  
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
-    background-size: cover;
-    animation-name: floating;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-  }
-  
-  .cloud-left-top {
-    z-index: 3;
-    width: 262px;
-    height: 173px;  
-    position: absolute;
-    left: 10%;
-    top: 20%;
-    background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
-    background-size: cover;
-    animation-name: floating;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-  }
-  
   .cloud-left-bottom {
     z-index: 1;
-    width: 151px;
-    height: 85px;  
+    width: 30vh;
+    height: 30vh;  
     position: absolute;
-    left: 20%;
-    top: 53%;
+    left: 15%;
+    top: 131%;
+    background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
+    background-size: cover;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .cloud-left-top {
+    z-index: 1;
+    width: 30vh;
+    height: 30vh;  
+    position: absolute;
+    left: 42%;
+    top: 112%;
     background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
     background-size: cover;
     animation-name: floating;
@@ -72,13 +56,28 @@ body {
     animation-timing-function: ease-in-out;
   }
   
+  .cloud-right {
+    z-index: 1;
+    width: 30vh;
+    height: 30vh;  
+    position: absolute;
+    left: -25%;
+    top: 121%;
+    background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
+    background-size: cover;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
   .message {
     z-index: 3;
-    width: 200px;
-    height: 158px; 
+    width: 23vh;
+    height: 18vh; 
     position: absolute;
-    left: 55%;
-    top: 53%;
+    left: 70%;
+    top: 40%;
     background: url('https://drive.google.com/uc?id=1jiSQ538gtJ-DXCNpDiSndMP2Q348GME9') no-repeat;
     background-size: cover;
     animation: floating 4s infinite ease-in-out, fade 2s 1 ease-in-out;
@@ -87,7 +86,7 @@ body {
   .message:after {
     content: 'Feliz Navidad My Friend';
     color: #3f3f3f;
-    font-size: 18px;
+    font-size: 68px;
     position: absolute;
-    padding: 40px 30px 30px 30px;
+    padding: 60px 40px 40px 40px;
   }
