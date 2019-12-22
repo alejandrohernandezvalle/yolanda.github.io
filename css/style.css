@@ -73,9 +73,9 @@ body {
 
   .message {
     z-index: 3;
-    width: 23vh;
-    height: 18vh; 
-    position: absolute;
+    width: 27vh;
+    height:21vh; 
+    position: relative;
     left: 70%;
     top: 40%;
     background: url('https://drive.google.com/uc?id=1jiSQ538gtJ-DXCNpDiSndMP2Q348GME9') no-repeat;
@@ -86,7 +86,7 @@ body {
   .message:after {
     content: 'Feliz Navidad My Friend';
     color: #3f3f3f;
-    font-size: 50px;
+    font-size: 4vh;
     position: absolute;
-    padding: 60px 40px 40px 40px;
+    margin: 4vh 0vh 0vh 0vh;
   }
