@@ -86,7 +86,7 @@ body {
   .message:after {
     content: 'Feliz Navidad My Friend';
     color: #3f3f3f;
-    font-size: 68px;
+    font-size: 50px;
     position: absolute;
     padding: 60px 40px 40px 40px;
   }
