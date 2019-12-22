@@ -6,7 +6,7 @@ body {
   .main {
     width: 900px;
     height: 900px;
-    background: url('http://jyloo.xyz/assets/img/background.png');
+    background: url('https://drive.google.com/uc?id=10MRNaBcIcZkBDtio8Vaatu-zhI2g5Yps');
     background-size: cover;
     margin: 0 auto;
     position: relative;
@@ -19,7 +19,7 @@ body {
     position: absolute;
     left: 20%;
     top: 15%;
-    background: url('https://drive.google.com/file/d/1xMobxtV-hdPSias_hwWHuFlMcy7zei6a/view?usp=sharing') no-repeat;
+    background: url('https://drive.google.com/uc?id=1xMobxtV-hdPSias_hwWHuFlMcy7zei6a') no-repeat;
     background-size: cover;
     animation-name: floating;
     animation-duration: 4s;
@@ -34,7 +34,7 @@ body {
     position: absolute;
     left: 50%;
     top: 30%;
-    background: url('https://drive.google.com/file/d/1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM/view?usp=sharing') no-repeat;
+    background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
     background-size: cover;
     animation-name: floating;
     animation-duration: 6s;
@@ -49,7 +49,7 @@ body {
     position: absolute;
     left: 10%;
     top: 20%;
-    background: url('https://drive.google.com/file/d/1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM/view?usp=sharing') no-repeat;
+    background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
     background-size: cover;
     animation-name: floating;
     animation-duration: 7s;
@@ -64,8 +64,8 @@ body {
     position: absolute;
     left: 20%;
     top: 53%;
-    background: url('https://drive.google.com/file/d/1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM/view?usp=sharing') no-repeat;
-   background-size: cover;
+    background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
+    background-size: cover;
     animation-name: floating;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -79,7 +79,7 @@ body {
     position: absolute;
     left: 55%;
     top: 53%;
-    background: url('https://drive.google.com/file/d/1jiSQ538gtJ-DXCNpDiSndMP2Q348GME9/view?usp=sharing') no-repeat;
+    background: url('https://drive.google.com/uc?id=1jiSQ538gtJ-DXCNpDiSndMP2Q348GME9') no-repeat;
     background-size: cover;
     animation: floating 4s infinite ease-in-out, fade 2s 1 ease-in-out;
   }
