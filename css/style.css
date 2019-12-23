@@ -1,57 +1,16 @@
-
 /*
-  body {
-    background: #FFCAE2;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  
-  .main {
-    width: 900px;
-    height: 900px;    
-    background-size: cover;
-    margin: 0 auto;
-    position: relative;
-  }
-  
-  .balloon {
-    z-index: 2;
-    width: 30vh;
-    height: 30vh;  
-    position: absolute;
-    left: 20%;
-    top: 50%;    
-    background: url('https://drive.google.com/uc?id=1ERN5a0SKtET24xj98ubnamvA_-Nz1mhw') no-repeat;  
-    background-size: cover;
     animation-name: floating;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
   
-  .cloud-left-bottom {
-    z-index: 1;
-    width: 30vh;
-    height: 30vh;  
-    position: absolute;
-    left: 15%;
-    top: 131%;
-    background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
-    background-size: cover;
     animation-name: floating;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
 
-  .cloud-left-top {
-    z-index: 1;
-    width: 30vh;
-    height: 30vh;  
-    position: absolute;
-    left: 42%;
-    top: 112%;
-    background: url('https://drive.google.com/uc?id=1PST8UFT76-DattjF8gFXm4t4hZ3FRCRM') no-repeat;
-    background-size: cover;
     animation-name: floating;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -112,6 +71,10 @@ body {
   display: flex;
   height: 30vh;
   margin-top: .5vh;
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .text-description {
@@ -136,6 +99,10 @@ a .fab {
   height: 60vh;
   width: 50vh;
   margin-top: -25vh;
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .imgc{
@@ -143,4 +110,8 @@ a .fab {
   border: 0vh;
   padding: 0vh;
   margin-bottom: 24vh;
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
